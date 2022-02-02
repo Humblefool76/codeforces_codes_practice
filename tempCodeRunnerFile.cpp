@@ -1,0 +1,5 @@
+void solveOrNot(int n)
+// {
+    
+
+// }
