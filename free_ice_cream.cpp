@@ -1,18 +1,19 @@
 #include<bits/stdc++.h>
 #define e endl
+#define ll long long
 using namespace std;
 
 
 void solve(){
 
-    int n,x;
+    ll n,x;
     cin>>n>>x;
-    int rem_icecream =x;
-    int distress_child =0;
+    ll rem_icecream =x;
+    ll distress_child =0;
 
     while(n--){
         char sign;
-        int d;
+        ll d;
         cin>>sign>>d;
 
         if(sign == '+'){
@@ -39,9 +40,9 @@ void solve(){
 
 
 
-int main(){
+int32_t main(){
 
-    int t=1;
+    ll t=1;
     while(t--){
         solve();
     }
